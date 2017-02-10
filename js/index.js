@@ -11,8 +11,8 @@ function adjustLogo(){
   var half = window.innerHeight/2;
   var margin = $("#nav-bar-wrapper").outerHeight() - 
 			   $("#nav-bar-wrapper").innerHeight();
-  margin += 200;
-	//margin /= 2;
+  margin +=200;
+  //margin /= 2;
   half = half - (document.getElementById("logo").height
 			+ $("#nav-bar-wrapper").height()
 			+ margin)/2;
