@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  adjustLogo();
 	$('#nav-icon2').click(function(){
 		$(this).toggleClass('open');
     $( ".menu" ).slideToggle( "slow");
@@ -6,7 +7,6 @@ $(document).ready(function(){
   $( ".menu" ).hide();
 });
 $(window).on('resize', adjustLogo);
-$(window).on('load', adjustLogo);
 function adjustLogo(){
   var half = window.innerHeight/2;
   var margin = $("#nav-bar-wrapper").outerHeight() - 
