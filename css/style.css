@@ -44,7 +44,6 @@ a:hover {
 }
 
 #logo{
-  padding-top:75px;
   max-width: 25rem;
   height: auto;
   width:75%;
@@ -58,7 +57,6 @@ a:hover {
 }
 #nav-bar-wrapper{
   width:100%;
-  margin: 75px 0 75px 0;
 }
 .opaque-wrapper{
   float:left;

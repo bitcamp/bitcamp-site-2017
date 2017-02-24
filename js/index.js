@@ -7,17 +7,14 @@ $(document).ready(function(){
   $( ".menu" ).hide();
 });
 $(window).on('resize', adjustLogo);
+$(window).on('load', adjustLogo);
+// Make sure the splash margin is at a minimum of 35px
 function adjustLogo(){
-  var half = window.innerHeight/2;
-  var margin = $("#nav-bar-wrapper").outerHeight() - 
-			   $("#nav-bar-wrapper").innerHeight();
-  margin +=270;
-  //margin /= 2;
-  half = half - (document.getElementById("logo").height
-			+ $("#nav-bar-wrapper").height()
-			+ margin)/2;
-  document.getElementById("logo").style.marginTop = half.toString() + "px";
-  $(splash).height(window.innerHeight + 20);
+  var splash = $("#splash");
+  var margin = window.innerHeight - (splash.height());
+  margin = Math.max(margin/2, 35);
+  splash.css('margin-top', margin.toString() + "px");
+  splash.css('margin-bottom', margin.toString() + "px");
 }
 
 $(document).ready(function(){
