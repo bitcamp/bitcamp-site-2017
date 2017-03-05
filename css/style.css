@@ -154,12 +154,6 @@ input.button {
     display: block;
     margin: auto;
 }
-.recruiter-plus-images {
-    max-width: 40%;
-    margin: 50px 10px;
-    max-height: 70px;
-    display: inline-block;
-}
 .recruiter-images {
     max-width: 40%;
     margin: 50px 10px;
