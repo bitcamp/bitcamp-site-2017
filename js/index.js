@@ -34,15 +34,15 @@ $(document).ready(function(){
   });
 });
 
-var backgroundArray = ["#1","#2","#3","#4","#5","#6"];
+var backgroundArray = ["#1","#2","#3","#4","#5","#6","#7"];
 
 function doScroll() {
-  var section = ($(document).height() - window.screen.height)/5;
+  var section = ($(document).height())/6;
   var index = Math.floor(document.body.scrollTop/section);
   for (var i = 0; i < index; i++) {
 	$(backgroundArray[i]).css({'visibility': 'hidden'});
   }
-  var opacity = Math.round((1-((document.body.scrollTop/section) - index))*100)/100;
+  var opacity = 1-((document.body.scrollTop/section) - index);
   $(backgroundArray[index]).css({'opacity': opacity});
   $(backgroundArray[index]).css({'visibility': 'visible'});
   if (index + 1 < backgroundArray.length) {

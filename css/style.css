@@ -151,12 +151,19 @@ input.button {
 .corporate-images {
     max-height: 280px;
     max-width: 50%;
-    display: block;
-    margin: auto;
+    display: inline-block;
+    margin: 10px 10px;
 }
+
+.recruiter-plus-images {
+    max-width: 40%;
+    max-height: 180px;
+    display: inline-block;
+}
+
 .recruiter-images {
     max-width: 40%;
-    margin: 50px 10px;
+    margin: 40px 10px;
     max-height: 70px;
     display: inline-block;
 }
@@ -175,10 +182,33 @@ input.button {
     max-height: 30px;
     display: inline-block;
 }
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+}
+
 .social-media-images {
     width: 6%;
-    margin: 30px 10px;
+    margin: 35px 15px;
 }
+
+.social-media-images {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.social-media-images:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
 .heading {
     color: white;
 }
