@@ -117,6 +117,9 @@ input.button {
     font-size: 18;
     color: #FA9F3A;
 }
+.white {
+    color: white;
+}
 .intro-text {
     padding: 40px 40px 0px 40px;
     /*line-height:29px;*/
