@@ -216,6 +216,29 @@ input.button {
 .heading {
     color: white;
 }
+
+.date-heading {
+  color: #FFAF3F;
+  text-align: center;
+}
+
+.day {
+  width: 50%;
+  color: white;
+  font-family: Avenir Light;
+  font-size: 21px;
+  text-align: left;
+  margin: auto;
+}
+
+th {
+  padding: 10px 5px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
 .contact {
     padding-top: 50px;
     color: white;
