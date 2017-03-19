@@ -223,13 +223,14 @@ input.button {
 }
 
 .day {
-  width: 50%;
+  width: 70%;
   color: white;
   font-family: Avenir Light;
   font-size: 21px;
   text-align: left;
   margin: auto;
   margin-bottom: 50px;
+  table-layout: fixed;
 }
 
 td, th {
