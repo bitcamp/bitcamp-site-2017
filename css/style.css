@@ -223,20 +223,18 @@ input.button {
 }
 
 .day {
-  width: 50%;
+  width: 70%;
   color: white;
   font-family: Avenir Light;
   font-size: 21px;
   text-align: left;
   margin: auto;
+  margin-bottom: 50px;
+  table-layout: fixed;
 }
 
-th {
-  padding: 10px 5px;
-}
-
-td {
-  padding: 5px 10px;
+td, th {
+  padding: 5px;
 }
 
 .contact {
