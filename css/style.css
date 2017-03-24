@@ -147,24 +147,12 @@ input.button {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-#corporate-sponsors {
-  margin-bottom: 100px;
-}
-#recruiter-plus-sponsors {
-  margin-bottom: 100px;
-}
-#recruiter-sponsors {
-  margin-bottom: 100px;
-}
-#department-sponsors {
-  margin-bottom: 100px;
-}
-#api-sponsors {
-  margin-bottom: 100px;
-}
-#starter-sponsors {
-  margin-bottom: 100px;
-}
+#corporate-sponsors {}
+#recruiter-plus-sponsors {}
+#recruiter-sponsors {}
+#department-sponsors {}
+#api-sponsors {}
+#starter-sponsors {}
 .corporate-images {
     max-height: 280px;
     max-width: 50%;
