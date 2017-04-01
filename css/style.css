@@ -153,15 +153,20 @@ input.button {
 #department-sponsors {}
 #api-sponsors {}
 #starter-sponsors {}
-.corporate-images {
+.cohost-images {
     max-height: 280px;
+    max-width: 70%;
+    display: inline-block;
+}
+.corporate-images {
+    max-height: 250px;
     max-width: 50%;
     display: inline-block;
     margin: 10px 10px;
 }
 .recruiter-plus-images {
     max-width: 40%;
-    max-height: 180px;
+    max-height: 170px;
     display: inline-block;
 }
 .recruiter-images {
@@ -218,27 +223,24 @@ input.button {
 .heading {
     color: white;
 }
-
 .date-heading {
-  color: #FFAF3F;
-  text-align: center;
+    color: #FFAF3F;
+    text-align: center;
 }
-
 .day {
-  width: 70%;
-  color: white;
-  font-family: Avenir Light;
-  font-size: 21px;
-  text-align: left;
-  margin: auto;
-  margin-bottom: 50px;
-  table-layout: fixed;
+    width: 70%;
+    color: white;
+    font-family: Avenir Light;
+    font-size: 21px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 50px;
+    table-layout: fixed;
 }
-
-td, th {
-  padding: 5px;
+td,
+th {
+    padding: 5px;
 }
-
 .contact {
     padding-top: 50px;
     color: white;
