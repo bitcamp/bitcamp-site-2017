@@ -178,6 +178,10 @@ input.button {
 #sponsors {
     vertical-align: middle;
 }
+#speaker {
+  padding: 1em;
+  width: 225px;
+}
 .api-images {
     max-width: 30%;
     margin: 30px 10px;
@@ -226,6 +230,20 @@ input.button {
 .date-heading {
     color: #FFAF3F;
     text-align: center;
+}
+.name-heading {
+    color: #FFAF3F;
+    text-align: center;
+    font-size: 27px;
+    margin: 10px 0px;
+    padding: 0px;
+}
+.title-heading {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0px;
+    padding: 0px;
 }
 .day {
     width: 70%;
