@@ -59,6 +59,11 @@ ul {
     height: auto;
     width: 75%;
 }
+#small-logo {
+    max-width: 20rem;
+    height: auto;
+    width: 75%;
+}
 #content-wrapper {
     width: 100%;
     max-width: 850px;
@@ -159,6 +164,7 @@ input.button {
     font-size: 36;
     color: #eb673f;
     font-weight: 1000;
+    padding: 0px;
 }
 .row {
     display: inline-block;
@@ -521,6 +527,12 @@ img.bg {
 #ciphertech {}
 @media only screen and (max-width: 768px) {
     #logo {
+        max-width: 15rem;
+        max-height: 15rem;
+        height: auto;
+        width: 100%;
+    }
+    #small-logo {
         max-width: 15rem;
         max-height: 15rem;
         height: auto;
