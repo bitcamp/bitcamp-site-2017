@@ -10,6 +10,12 @@
     font-family: Aleo;
     src: url("../fonts/Aleo/Aleo-Regular.otf") format("opentype");
 }
+h1 {
+    padding: 0px 0px 0px 40px;
+    font-family: Avenir Light;
+    text-align: left;
+    font-size: 33;
+}
 h2 {
     padding: 0px 0px 0px 40px;
     font-family: Avenir Light;
@@ -33,6 +39,14 @@ a {
 a:hover {
     color: #CBF2FF;
     text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+#nurikabe {
+	width: 65%;
+	display: block;
+	margin: 0 auto;
 }
 .footer {
     color: #FFAF3F;
@@ -58,7 +72,8 @@ a:hover {
 .opaque-wrapper {
     float: left;
     width: 100%;
-    background-color: rgba(22, 38, 41, .79);
+    background-color:  rgba(22, 38, 41, .79);
+    text-align: default;
 }
 #input-email {
     width: 100%;
@@ -128,6 +143,15 @@ input.button {
     font-size: 24;
     color: #fa9f3a;
 }
+.puzzle-id {
+    color: #FF3F46;
+}
+#daughters {
+    list-style-type: none;
+}
+#ekrpat {
+    line-height: normal;
+}
 .date-text {
     /*line-height:29px;*/
     font-family: Aleo;
@@ -155,18 +179,18 @@ input.button {
 #starter-sponsors {}
 .cohost-images {
     max-height: 280px;
-    max-width: 70%;
+    max-width: 80%;
     display: inline-block;
 }
 .corporate-images {
-    max-height: 250px;
+    max-height: 280px;
     max-width: 50%;
     display: inline-block;
     margin: 10px 10px;
 }
 .recruiter-plus-images {
     max-width: 40%;
-    max-height: 170px;
+    max-height: 180px;
     display: inline-block;
 }
 .recruiter-images {
@@ -227,9 +251,10 @@ input.button {
 .heading {
     color: white;
 }
+
 .date-heading {
-    color: #FFAF3F;
-    text-align: center;
+  color: #FFAF3F;
+  text-align: center;
 }
 .name-heading {
     color: #FFAF3F;
@@ -246,19 +271,20 @@ input.button {
     padding: 0px;
 }
 .day {
-    width: 70%;
-    color: white;
-    font-family: Avenir Light;
-    font-size: 21px;
-    text-align: left;
-    margin: auto;
-    margin-bottom: 50px;
-    table-layout: fixed;
+  width: 70%;
+  color: white;
+  font-family: Avenir Light;
+  font-size: 21px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 50px;
+  table-layout: fixed;
 }
-td,
-th {
-    padding: 5px;
+
+td, th {
+  padding: 5px;
 }
+
 .contact {
     padding-top: 50px;
     color: white;
