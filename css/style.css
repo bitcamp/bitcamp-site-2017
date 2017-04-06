@@ -43,6 +43,9 @@ a:hover {
 ul {
 	list-style-type: none;
 }
+p {
+    font-family: Avenir Light;
+}
 #nurikabe {
 	width: 65%;
 	display: block;
@@ -212,6 +215,11 @@ input.button {
   padding: 1em;
   width: 225px;
 }
+.speaker {
+  padding: 1em;
+  width: 100%;
+  height: auto;
+}
 .api-images {
     max-width: 30%;
     margin: 30px 10px;
@@ -268,6 +276,21 @@ input.button {
     font-size: 27px;
     margin: 10px 0px;
     padding: 0px;
+}
+.judge-heading {
+    display: block;
+    width: 100%;
+    color: #FFAF3F;
+    font-size: 15px;
+    padding: 0px 16px;
+    vertical-align: top;
+    margin: auto;
+}
+.block {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 10px;
 }
 .title-heading {
     color: white;
