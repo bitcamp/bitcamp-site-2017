@@ -151,6 +151,15 @@ input.button {
     font-size: 24;
     color: #fa9f3a;
 }
+.reg-text {
+    padding: 40px 40px 0px 40px;
+    /*line-height:29px;*/
+    font-family: Avenir Light;
+    text-align: center;
+    font-size: 24;
+    color: #ff3f46;
+}
+
 .puzzle-id {
     color: #FF3F46;
 }
