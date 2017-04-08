@@ -278,6 +278,7 @@ input.button {
 .date-heading {
   color: #FFAF3F;
   text-align: center;
+  padding: 30px;
 }
 .name-heading {
     color: #FFAF3F;
@@ -309,14 +310,17 @@ input.button {
     padding: 0px;
 }
 .day {
-  width: 70%;
+  width: 85%;
   color: white;
   font-family: Avenir Light;
   font-size: 21px;
   text-align: left;
   margin: auto;
   margin-bottom: 50px;
-  table-layout: fixed;
+  table-layout: auto;
+}
+td:first-child {
+  width: 150px;
 }
 
 td, th {
