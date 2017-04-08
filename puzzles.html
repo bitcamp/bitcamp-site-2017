@@ -24,7 +24,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="bitcamp">
-
+    <meta charset="UTF-8">
     <meta property="og:title" content="Bitcamp 2017">
     <meta property="og:site_name" content="Bitcamp">
     <meta property="og:url" content="http://bitca.mp/">
@@ -57,16 +57,91 @@
     <img src="img/bg3dusk4.png" class="bg" id="2"></img>
     <img src="img/bg2day4.png" class="bg" id="1"></img>
     <a style="display:block;max-width:100px;min-width:60px;position:fixed;left:2em;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img id="mlh-trust-badge" src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
-
     <div id="content-wrapper">
-      <div id="splash">
-        <a href="index.html"><img id="logo" src="img/bitcamp-logo-badge.png"></a>
-        <h1 class="date-text">April 7-9, 2017</h1>
-      </div>
-      <div class="opaque-wrapper" style="margin: 0px 0px 40px 0px">
+      <div class="opaque-wrapper" style="margin-top: 10em">
         <h1 class="heading"> Puzzles </h1>
-        <h3 class="date-heading" style="padding: 0px 0px 40px 0px"> Coming soon! </h1>
+        <div class="body-text">
+          <p> There are four independent puzzles. Each puzzle leads to an English word or phrase.  </p>
+          <p> If you're stuck, try Googling things.  </p>
+          <p> The first person to solve all the puzzles will win a $50 Amazon gift card. </p>
+          <p> Download the Bitcamp mobile app to figure out how to submit your answers. Don't play with fire! </p>
+        </div>
+
+        <h3 class="heading"> I See Big Numbers <code class="puzzle-id">(bignum)</code> </h3>
+        <div class="body-text">
+          <p>
+            You're getting ready for the best camping trip ever! You make sure to pack all the
+            essentials: your sleeping bag, toothbrush, and of course, a good book to read by the campfire.
+            Unfortunately, you can't find your favorite book! Solve this puzzle to locate your
+            missing book:
+
+            <pre>
+9788853006585 + 9780451081070
+9780886460976
+9780345803481 * 9781534968998 - 9781446493830
+9781400052929 * 9780345248282 + 9780099536017
+
+9780141182957 % 9780060883287 - 9780545599320
+9780814908891 / 9780060799168 + 9780919519077 - 9780143105022
+floor(9781451673319 / 9780756933937) - 9780679890706
+9780439785969
+            </pre>
+          </p>
+        </div>
+
+        <h3 class="heading"> Ekrpat Telephone <code class="puzzle-id">(ekrpat)</code></h3>
+        <div class="body-text">
+          <p>
+          You and your friends are sitting around the campfire playing a weird game of
+          <a href="https://en.wikipedia.org/wiki/Chinese_whispers"> telephone</a>.
+          Unfortunately, they haven't explained the rules to you. Luckily, your supernatural
+          hearing ability allows you to hear what the first five people have whispered to their
+          respective neighbors:
+          </p>
+          <ol id="ekrpat">
+              <li> <pre> Fukafuzj Z'maf </pre> </li>
+              <li> <pre> Ugtaug;h :-mau </pre> </li>
+              <li> <pre> Giyagisd S[mag </pre> </li>
+              <li> <pre> Icfaicoe O/mai </pre> </li>
+              <li> <pre> Cjuacjr. Rzmac </pre> </li>
+              <li> <pre> ... </pre>            </li>
+            </ol>
+            <p> You're the <b>424,242,428th</b> person in the sequence. What do you whisper to your neighbor? </p>
+        </div>
+        <br>
+
+        <h3 class="heading"> Trilingual <code class="puzzle-id">(tri)</code></h3>
+        <div class="body-text">
+          <p>
+            While hiking in the woods, you come across cave. Inside you find
+            <a href="note.js"> a note </a> written by the famous esoteric linguist,
+            Steve Lokas. Lokas had three daughters:
+            <ol id="daughters">
+              <li> The first daughter was incredibly popular. </li>
+              <li> The second daughter loved playing brain tricks on men. </li>
+              <li> The third daughter was known for always staring blankly off into space. </li>
+            </ol>
+            What does the note say?
+          </p>
+          <p>
+            <b> Hint: </b> The whitespace in the note is significant.
+            The file contains spaces, tabs, and Unix line endings.
+          </p>
+        </div>
+        <br>
+
+        <h3 class="heading"> A Japanese Classic <code class="puzzle-id">(nurikabe)</code></h3>
+        <div class="body-text">
+					<p>Solve this <a href="https://en.wikipedia.org/wiki/Nurikabe_(puzzle)" target="_blank">Nurikabe</a> puzzle and something should appear. Have fun!</p>
+					<img id="nurikabe" src="img/nurikabe_puzzle.png">
+        </div>
       </div>
-    </div>
+      <div id="contact" class="opaque-wrapper">
+        <h3 class="contact"> If you have questions or think we made mistake, please <a href="mailto:terrapinfreelancers@gmail.com"> email us</a>.
+			  <p class="heading copyright">© 2017 Bitcamp<p>
+			  <p style="font-size: 0.55em">Designed by the Bitcamp Team, built with <i class="fa fa-heart" aria-hidden="true" style="color: #fa9f3a"></i> by <a href="http://terrapinfreelancers.com/" class="footer">Terrapin Freelancers</a>
+        </p>
+	    </h3>
+	  </div>
   </body>
 </html>
