@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -59,84 +60,39 @@
     <a style="display:block;max-width:100px;min-width:60px;position:fixed;left:2em;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/na-2017/events?utm_source=na-2017&utm_medium=TrustBadge&utm_campaign=na-2017&utm_content=white" target="_blank"><img id="mlh-trust-badge" src="https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg" alt="Major League Hacking 2017 Hackathon Season" style="width:100%"></a>
     <div id="content-wrapper">
       <div class="opaque-wrapper" style="margin-top: 10em">
-        <h1 class="heading"> Puzzles </h1>
+        <h1 class="heading"> Puzzle Solutions </h1>
         <div class="body-text">
-          <p> There are four independent puzzles. Each puzzle leads to an English word or phrase.  </p>
-          <p> If you're stuck, try Googling things.  </p>
-          <p> The first person to solve all the puzzles will win a $50 Amazon gift card. </p>
-          <p> Download the Bitcamp mobile app to figure out how to submit your answers. Don't play with fire! </p>
-          <p> UPDATE: Someone has already won the prize but feel free to continue solving them! We would very much appreciate any feedback you may have about the puzzles so please <a href="mailto:terrapinfreelancers@gmail.com">email us</a> if you have any questions or comments about the puzzle challenge. Once again, thank you for solving our puzzles! </p>
-          <p> UPDATE 2: Answers will be released at the end of the event! But if you want to verify your answers, there might be a way to do so hidden in the mobile app somewhere...</p>
-          <p> UPDATE 3: <a href="puzzleanswers.html"> Here </a> are the answers to the puzzles. Thanks to everyone who tried solving them. We hope you had fun! </p>
+          <p> Tapping the fire in the Bitcamp app gives a link to <a href="https://jackjackjackjack.herokuapp.com/check"> check your answers. </a> 
+              Giving the right query parameters (mapping puzzle IDs to answers) returns the username and password to a gmail account.
+              The first person to log into this account won the $50.
+          </p>
         </div>
 
         <h3 class="heading"> I See Big Numbers <code class="puzzle-id">(bignum)</code> </h3>
         <div class="body-text">
-          <p>
-            You're getting ready for the best camping trip ever! You make sure to pack all the
-            essentials: your sleeping bag, toothbrush, and of course, a good book to read by the campfire.
-            Unfortunately, you can't find your favorite book! Solve this puzzle to locate your
-            missing book:
-
-            <pre>
-9788853006585 + 9780451081070
-9780886460976
-9780345803481 * 9781534968998 - 9781446493830
-9781400052929 * 9780345248282 + 9780099536017
-
-9780141182957 % 9780060883287 - 9780545599320
-9780814908891 / 9780060799168 + 9780919519077 - 9780143105022
-floor(9781451673319 / 9780756933937) - 9780679890706
-9780439785969
-            </pre>
-          </p>
+          <p> Each number is an ISBN for a book with a number in its title, part of a series, or somehow associated in another way 
+              (42 for <i>The Hitchhiker's Guide to the Galaxy</i>). Doing the math and converting these numbers to ASCII gives "Sec 106 Row 6".
+              We put a QR code in the seats that decoded to <b> The Book Thief </b>. </p>
         </div>
 
         <h3 class="heading"> Ekrpat Telephone <code class="puzzle-id">(ekrpat)</code></h3>
         <div class="body-text">
-          <p>
-          You and your friends are sitting around the campfire playing a weird game of
-          <a href="https://en.wikipedia.org/wiki/Chinese_whispers"> telephone</a>.
-          Unfortunately, they haven't explained the rules to you. Luckily, your supernatural
-          hearing ability allows you to hear what the first five people have whispered to their
-          respective neighbors:
-          </p>
-          <ol id="ekrpat">
-              <li> <pre> Fukafuzj Z'maf </pre> </li>
-              <li> <pre> Ugtaug;h :-mau </pre> </li>
-              <li> <pre> Giyagisd S[mag </pre> </li>
-              <li> <pre> Icfaicoe O/mai </pre> </li>
-              <li> <pre> Cjuacjr. Rzmac </pre> </li>
-              <li> <pre> ... </pre>            </li>
-            </ol>
-            <p> You're the <b>424,242,428th</b> person in the sequence. What do you whisper to your neighbor? </p>
+          <p> Each person <a href="https://en.wikipedia.org/wiki/Dvorak_encoding"> Dvorak encodes </a> the previous person's message.
+          Because this sequence repeats itself every 210 iterations, the answer is the 8th member of the sequence: <b> Decadent Nomad </b>. </p>
         </div>
         <br>
 
         <h3 class="heading"> Trilingual <code class="puzzle-id">(tri)</code></h3>
         <div class="body-text">
-          <p>
-            While hiking in the woods, you come across cave. Inside you find
-            <a href="note.js"> a note </a> written by the famous esoteric linguist,
-            Steve Lokas. Lokas had three daughters:
-            <ol id="daughters">
-              <li> The first daughter was incredibly popular. </li>
-              <li> The second daughter loved playing brain tricks on men. </li>
-              <li> The third daughter was known for always staring blankly off into space. </li>
-            </ol>
-            What does the note say?
-          </p>
-          <p>
-            <b> Hint: </b> The whitespace in the note is significant.
-            The file contains spaces, tabs, and Unix line endings.
+          <p> The daughters are clues to three programming languages: JavaScript, Brainfuck, and Whitespace. Running the code in the
+              respective interpreters gives <b> esoteric epsilon ball </b>.
           </p>
         </div>
         <br>
 
         <h3 class="heading"> A Japanese Classic <code class="puzzle-id">(nurikabe)</code></h3>
         <div class="body-text">
-					<p>Solve this <a href="https://en.wikipedia.org/wiki/Nurikabe_(puzzle)" target="_blank">Nurikabe</a> puzzle and something should appear. Have fun!</p>
-					<img id="nurikabe" src="img/nurikabe_puzzle.png">
+          <p> Solving the Nurikate and reading off the remaining letters produces <b> camp </b>. </p>
         </div>
       </div>
       <div id="contact" class="opaque-wrapper">
